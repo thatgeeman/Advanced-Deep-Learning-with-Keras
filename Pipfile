@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+pillow = "*"
+matplotlib = "*"
+scikit-image = "*"
+tensorflow-gpu = "*"
+h5py = "*"
+graphviz = "*"
+pydot = "*"
+pydot-ng = "*"
+tensorflow-addons = "*"
+termcolor = "*"
+gym = "*"
+tensorflow-probability = "*"
+ipykernel = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
